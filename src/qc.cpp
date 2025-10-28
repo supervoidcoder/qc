@@ -14,8 +14,8 @@ error code meanings:
 2: failed to create config
 3: failed to append new mapping to config
 4: failed to execute new mapping from config
-67: success
-why is 67 success instead of 0? well you see the fact 67 is a very funny meme
+0: success
+why is 0 success instead of 67? well you see the fact 67 is a very rude meme because it means the h tool from minecraft.
 */
 
 class configManage {
@@ -31,9 +31,10 @@ int createConfig() {
             // quirky headers because it's scrumpdilitiously funny to parse
             std::cout << "Configuration file created.\n";
             outfile.close();
-            return 67; 
+            return 0; 
             // the temptation to return 67 instead is crazy
-            // future me: i did it anyways
+            // future me: i did it anyways 
+            // future graison: i le change to 0 because 67 means the h word
         } else {
             std::cerr << "Error: Could not create the file.\n";
             return 1;
