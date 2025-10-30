@@ -39,7 +39,7 @@ It has quirky error handling inside functions
 2: failed to create config
 3: failed to append new mapping to config
 4: failed to execute new mapping from config
-0: success
+67: success because very funny meem lolloolloo
 ```
 ### config.txt
 
@@ -48,7 +48,7 @@ Once you install the thing in your program files, that's the thing that saves yo
 
 ### build.py
 it builds the thing using iexpress.exe
-why? because yes.
+why? because 
 
 
 
